@@ -185,7 +185,15 @@ pithon-arena/
 ```
 
 Additional demo assets and automated tests will be added to the portfolio version of the project.
+## Testing
 
+Server-side game logic is covered by automated tests using pytest.
+
+Run the test suite with:
+
+```bash
+python -m pip install -r requirements-dev.txt
+python -m pytest -q
 ## Project Background
 
 Πthon Arena was originally developed collaboratively as a final project for **EECE 350 — Computing Networks** at the **American University of Beirut**.
