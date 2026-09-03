@@ -194,6 +194,10 @@ Run the test suite with:
 ```bash
 python -m pip install -r requirements-dev.txt
 python -m pytest -q
+```
+
+Tests are also run automatically on each push and pull request using GitHub Actions.
+
 ## Project Background
 
 Πthon Arena was originally developed collaboratively as a final project for **EECE 350 — Computing Networks** at the **American University of Beirut**.
